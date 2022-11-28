@@ -125,11 +125,9 @@
               <a class="news-tag-link" href="#0">Health</a>
             </li>
           </ul>
-          <div class="news-title">
-            <h2 class="news-title-text">
-              <a class="news-title-link" href="#0">10 мест, ради которых стоит проснуться на рассвете</a>
-            </h2>
-          </div>
+          <h2 class="news-title-text">
+            <a class="news-title-link" href="#0">10 мест, ради которых стоит проснуться на рассвете</a>
+          </h2>
           <div class="news-date-author">
             <time class="news-date" datetime="2019-06-10">10 июня 2019</time>
             <span class="news-author">Неизвестный автор</span>
@@ -152,11 +150,9 @@
               <a class="news-tag-link" href="#0">Lifestyle</a>
             </li>
           </ul>
-          <div class="news-title">
-            <h2 class="news-title-text">
-              <a class="news-title-link" href="#0">Йoга для начинающих в домашних условиях</a>
-            </h2>
-          </div>
+          <h2 class="news-title-text">
+            <a class="news-title-link" href="#0">Йoга для начинающих в домашних условиях</a>
+          </h2>
           <div class="news-date-author">
             <time class="news-date" datetime="2019-06-10">10 июня 2019</time>
             <span class="news-author">Неизвестный автор</span>
@@ -176,11 +172,9 @@
               <a class="news-tag-link" href="#0">Music</a>
             </li>
           </ul>
-          <div class="news-title">
-            <h2 class="news-title-text">
-              <a class="news-title-link" href="#0">Лучшие музыкальные фестивали этого лета</a>
-            </h2>
-          </div>
+          <h2 class="news-title-text">
+            <a class="news-title-link" href="#0">Лучшие музыкальные фестивали этого лета</a>
+          </h2>
           <div class="news-date-author">
             <time class="news-date" datetime="2019-06-10">10 июня 2019</time>
             <span class="news-author">Неизвестный автор</span>
@@ -204,11 +198,9 @@
               <a class="news-tag-link" href="#0">Food</a>
             </li>
           </ul>
-          <div class="news-title">
-            <h2 class="news-title-text">
-              <a class="news-title-link" href="#0">Наукоёмкий подход к кулинарии</a>
-            </h2>
-          </div>
+          <h2 class="news-title-text">
+            <a class="news-title-link" href="#0">Наукоёмкий подход к кулинарии</a>
+          </h2>
           <div class="news-date-author">
             <time class="news-date" datetime="2019-06-10">10 июня 2019</time>
             <span class="news-author">Неизвестный автор</span>
@@ -234,11 +226,9 @@
               <a class="news-tag-link" href="#0">Art</a>
             </li>
           </ul>
-          <div class="news-title">
-            <h2 class="news-title-text">
-              <a class="news-title-link" href="#0">Делаем модные принты на подушках для интерьера </a>
-            </h2>
-          </div>
+          <h2 class="news-title-text">
+            <a class="news-title-link" href="#0">Делаем модные принты на подушках для интерьера </a>
+          </h2>
           <div class="news-date-author">
             <time class="news-date" datetime="2019-06-10">10 июня 2019</time>
             <span class="news-author">Неизвестный автор</span>
@@ -332,8 +322,7 @@
             <input name="subscribe" type="email" class="subscribe-email" placeholder="Ваш email-адрес" required>
           </label>
           <button class="subscribe-button" type="submit">
-            <span class="visually-hidden">Кнопка подписки на рассылки</span>
-              Подписаться
+            Подписаться
           </button>
         </form>
       </section> 
@@ -514,22 +503,24 @@
     <div class="popup">
       <header class="popup__title">Ваш фидбек</header>
       <form>
-        <div class="popup__label">
-          <label>
-            <span class="popup__question">Как часто вы заходите на сайт?</span>
-             <select class="popup__label-select">
-               <option value="always" selected>Почти каждый день</option>
-               <option value="often">Раз в несколько дней</option>
-               <option value="sometimes">Раз в несколько недель</option>
-               <option value="seldom">Несколько раз в год</option>
-             </select>
-          </label>
-        </div>
+        <label>
+          <span class="popup__question">Как часто вы заходите на сайт?</span>
+          <select class="popup__label-select">
+            <option value="always" selected>Почти каждый день</option>
+            <option value="often">Раз в несколько дней</option>
+            <option value="sometimes">Раз в несколько недель</option>
+            <option value="seldom">Несколько раз в год</option>
+          </select>
+        </label>
         <div class="popup__email">
           <span class="popup__question">Вы подписаны на e-mail рассылку?</span>
           <div class="popup__radio">
+            <label>
             <input class="popup__radio-button" type="radio" name="e-mail" value="yes" checked>Да
+            </label>
+            <label>
             <input class="popup__radio-button popup__radio-button-second" type="radio" name="e-mail" value="no">Нет
+            </label>
           </div>
         </div>
         <div class="popup__content">
